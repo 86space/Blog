@@ -1,8 +1,8 @@
 ---
-title: "什么是深度学习"
+title: "人工智能：什么是深度学习"
 description: 
 date: 2025-01-22T16:06:24Z
-image: 
+image: image-1.png
 math: 
 hidden: false
 tags: 
