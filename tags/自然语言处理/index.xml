@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>自然语言处理 on 八 六</title><link>https://blog.8688886.xyz/tags/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</link><description>Recent content in 自然语言处理 on 八 六</description><generator>Hugo -- gohugo.io</generator><language>en-ZH</language><managingEditor>86@example.com (八 六)</managingEditor><webMaster>86@example.com (八 六)</webMaster><lastBuildDate>Fri, 07 Feb 2025 11:43:04 +0000</lastBuildDate><atom:link href="https://blog.8688886.xyz/tags/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>人工智能：什么是自然语言处理</title><link>https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</link><pubDate>Fri, 07 Feb 2025 11:43:04 +0000</pubDate><author>86@example.com (八 六)</author><guid>https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/</guid><description>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-3.png" alt="Featured image of post 人工智能：什么是自然语言处理" />&lt;p>自然语言处理（NLP）是一门融合了计算机科学、人工智能和语言学的交叉学科，旨在让计算机能够理解、解释和生成人类的自然语言。自然语言是指日常使用的语言，如汉语和英语，它比编程语言更复杂多样。
+NLP的&lt;strong>目标是使机器能够像人一样理解和使用语言，以实现更自然高效的人机交互。这包括文本信息提取、自动翻译、情感分析、语音识别和问答系统等应用&lt;/strong>。例如，NLP可以用来开发聊天机器人和翻译软件。
+为了实现这些目标，研究人员使用大量数据集和先进算法，如循环神经网络（RNN）、长短时记忆网络（LSTM）和变换器（Transformer）。这些技术的进步显著提升了NLP系统的性能，在许多任务上达到了接近甚至超过人类的水平。&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image.png"
+width="2418"
+height="794"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image_hu_de7b7548d53384b9.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image_hu_f8bf14b38f556e24.png 1024w"
+loading="lazy"
+alt="自然语言处理"
+class="gallery-image"
+data-flex-grow="304"
+data-flex-basis="730px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>一个典型的 NLP 流程大致分为以下几个步骤：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>输入 (Text File)：&lt;/strong> NLP 过程的起始点，通常是文本文件，例如文章、对话、网页等。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>这是 NLP 系统的原始数据，例如一段文字：“今天天气真好，适合出去玩。”&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;strong>预处理 (Preprocessing)：&lt;/strong> 对原始文本进行清洗和规范化，为后续处理做准备。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>目的&lt;/strong>： 清理和规范化文本，去除噪声，使模型更容易学习。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>常用方法：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>分词 (Tokenization)：&lt;/strong> 将文本分解成独立的词语或子词。例如，将“今天天气真好” 分成 “今天”，“天气”，“真”，“好”。&lt;/li>
+&lt;li>&lt;strong>去除停用词 (Stop Word Removal)：&lt;/strong> 去除常用的、没有实际意义的词语，例如“的”，“是”，“了”等。&lt;/li>
+&lt;li>&lt;strong>词干提取 (Stemming) / 词形还原 (Lemmatization)：&lt;/strong> 将词语还原为原型，例如将“running” 还原为 “run”。&lt;/li>
+&lt;li>&lt;strong>大小写转换 (Lowercasing)：&lt;/strong> 将所有字母转换为小写，避免大小写带来的差异。&lt;/li>
+&lt;li>&lt;strong>标点符号去除 (Punctuation Removal)：&lt;/strong> 去除文本中的标点符号。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>例子：&lt;/strong> 经过预处理后，“今天天气真好，适合出去玩。” 可能变为 [&amp;ldquo;今天&amp;rdquo;, &amp;ldquo;天气&amp;rdquo;, &amp;ldquo;真&amp;rdquo;, &amp;ldquo;好&amp;rdquo;, &amp;ldquo;适合&amp;rdquo;, &amp;ldquo;出去玩&amp;rdquo;]。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;strong>词嵌入 (Dense Embedding)：&lt;/strong> 将文本转换为计算机可以理解的数值表示形式。&lt;strong>一个分词的词嵌入里有好几百个值&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>目的：&lt;/strong> 将词语转换为计算机可以理解的数值向量。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>原理：&lt;/strong> 每个词语都被映射到一个高维空间中的向量，向量之间的距离反映了词语之间的语义相似度。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>常用方法：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>Word2Vec：&lt;/strong> 一种经典的词嵌入方法，通过训练神经网络来学习词向量。&lt;/li>
+&lt;li>&lt;strong>GloVe：&lt;/strong> 一种基于词语共现统计的词嵌入方法。&lt;/li>
+&lt;li>&lt;strong>FastText：&lt;/strong> 一种改进的词嵌入方法，可以处理未登录词。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>例子：&lt;/strong> “今天” 可能被表示为 [0.1, 0.2, -0.3, 0.5 &amp;hellip;], “天气” 可能被表示为 [0.2, 0.3, -0.1, 0.4 &amp;hellip;]。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>图中 “Dense Embedding” 下面的蓝色圆点就代表了词向量。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>词嵌入层的作用类似于查字典，将文字转换为计算机可以处理的数字，同时保留了词语的语义信息。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;strong>深度学习 (Deep Learning)：&lt;/strong> 使用深度神经网络来学习文本的特征和模式。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>目的：&lt;/strong> 利用神经网络来学习文本的深层特征和模式。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>常用模型：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>循环神经网络 (RNN)：&lt;/strong> 适用于处理序列数据，如文本。&lt;/li>
+&lt;li>&lt;strong>长短期记忆网络 (LSTM)：&lt;/strong> 改进的 RNN，可以更好地处理长距离依赖关系。&lt;/li>
+&lt;li>&lt;strong>Transformer：&lt;/strong> 基于自注意力机制的模型，在很多 NLP 任务上都取得了SOTA效果。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>图中 “Hidden Layer” 代表了神经网络的隐藏层，它负责学习输入数据的复杂特征。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>“Output Units” 代表了神经网络的输出层，它根据任务的需求输出不同的结果。&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;strong>输出 (Output)：&lt;/strong> 根据不同的任务，输出相应的结果，例如情感分析、文本分类、实体识别、机器翻译等。&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>目的：&lt;/strong> 根据不同的 NLP 任务，输出相应的结果。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>常见任务：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>情感分析 (Sentiment)：&lt;/strong> 判断文本的情感倾向，例如“积极”、“消极”、“中性”。&lt;/li>
+&lt;li>&lt;strong>文本分类 (Classification)：&lt;/strong> 将文本归类到预定义的类别中。&lt;/li>
+&lt;li>&lt;strong>实体识别 (Entity Extraction)：&lt;/strong> 识别文本中的命名实体，例如人名、地名、组织机构名。&lt;/li>
+&lt;li>&lt;strong>机器翻译 (Translation)：&lt;/strong> 将一种语言的文本翻译成另一种语言。&lt;/li>
+&lt;li>&lt;strong>主题建模 (Topic Modeling)：&lt;/strong> 从文本中提取主题。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;p>&lt;strong>词嵌入扩展&lt;/strong>&lt;/p>
+&lt;p>处理分词，模型会生成一个包含多个值的向量（或者说一列数值），并根据每个单词与 work 在训练数据中的距离调整这些值。这个向量就是所谓的词嵌入（Word Embedding）。&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-1.png"
+width="623"
+height="561"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-1_hu_bda9a927600d8d81.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-1_hu_3a7bdb6ec5455a9b.png 1024w"
+loading="lazy"
+alt="词嵌入-1"
+class="gallery-image"
+data-flex-grow="111"
+data-flex-basis="266px"
+>&lt;/p>
+&lt;p>词嵌入里有好几百个值，每个值都代表了单词意义的不同方面。就好比我们用类型、位置、卧室数、浴室数和楼层数来描述房子一样，词嵌入里的值描述了单词的语言特性。&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-2.png"
+width="1362"
+height="195"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-2_hu_8b2e48f1258f5111.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-2_hu_7111fa664ebf6980.png 1024w"
+loading="lazy"
+alt="词嵌入-2"
+class="gallery-image"
+data-flex-grow="698"
+data-flex-basis="1676px"
+>&lt;/p>
+&lt;p>由于我们无法准确知道每个值代表什么，有意思的是，我们发现那些意思相近的单词，它们的词嵌入往往很像。比如 &lt;strong>sea&lt;/strong> 和 &lt;strong>ocean&lt;/strong>，虽然它们不能在所有情境下互换，但它们的意思很接近，通过词嵌入，我们能量化这种相似度。&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-3.png"
+width="1073"
+height="718"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-3_hu_55ba1f912ff1770f.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-3_hu_9b6883ea8beb992a.png 1024w"
+loading="lazy"
+alt="词嵌入-3"
+class="gallery-image"
+data-flex-grow="149"
+data-flex-basis="358px"
+>&lt;/p>
+&lt;p>如果我们简化词嵌入，只用两个值来表示，就能更直观地看到单词之间的“距离”或者说相似度了。这样，我们就能发现一些词群，比如 &lt;strong>代词&lt;/strong>群， &lt;strong>交通工具&lt;/strong>群。而能量化单词，正是让模型成功生成文本的第一步。&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-4.png"
+width="1280"
+height="1672"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-4_hu_e73b082821830dd2.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-4_hu_541b133b180911.png 1024w"
+loading="lazy"
+alt="词嵌入-4"
+class="gallery-image"
+data-flex-grow="76"
+data-flex-basis="183px"
+>&lt;/p>
+&lt;p>接下来学习最富盛名的自然语言框架：Transformer模型，也就是隐藏层和输出层的内容。&lt;/p>
+&lt;h3 id="transformer模型">Transformer模型
+&lt;/h3>&lt;p>Transformer 模型的核心思想是使用**自注意力机制（Self-Attention Mechanism）**来捕捉输入序列中不同位置之间的关系，而不是像 RNN 那样按顺序处理。自注意力机制允许模型同时关注输入序列中的所有位置，从而更好地捕捉长距离依赖关系。&lt;/p>
+&lt;p>Transformer的内部，在本质上是一个 encoder-decoder的结构，即编码器-解码器&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-5.png"
+width="1518"
+height="1044"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-5_hu_91ab61f5aa52de63.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-5_hu_fbc1d5f56fb11ec3.png 1024w"
+loading="lazy"
+alt="Transformer模型"
+class="gallery-image"
+data-flex-grow="145"
+data-flex-basis="348px"
+>&lt;/p>
+&lt;p>Transformer工作流程&lt;/p>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-6.png"
+width="1156"
+height="1706"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-6_hu_7754c7214245fca0.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-6_hu_b574cb11e76db23b.png 1024w"
+loading="lazy"
+alt="Transformer工作流程"
+class="gallery-image"
+data-flex-grow="67"
+data-flex-basis="162px"
+>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>1. 整体结构：&lt;/strong>&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>输入 (Inputs)：&lt;/strong> 模型的原始输入，例如文本序列。&lt;/li>
+&lt;li>&lt;strong>输入嵌入 (Input Embedding)：&lt;/strong> 将输入的词语转换为词向量表示。&lt;/li>
+&lt;li>&lt;strong>位置编码 (Positional Encoding)：&lt;/strong> 为词向量添加位置信息，以表示词语在序列中的顺序。&lt;/li>
+&lt;li>&lt;strong>编码器 (Encoder)：&lt;/strong> 负责处理输入序列，提取文本的语义信息。&lt;/li>
+&lt;li>&lt;strong>解码器 (Decoder)：&lt;/strong> 负责根据编码器的输出，生成目标序列。&lt;/li>
+&lt;li>&lt;strong>输出 (Outputs)：&lt;/strong> 模型的最终输出，例如翻译后的文本，或者分类结果。&lt;/li>
+&lt;li>&lt;strong>输出概率 (Output Probabilities)：&lt;/strong> 对输出进行概率化处理，以便进行概率预测。&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>2. 具体步骤详解：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>输入 (Inputs)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>图中显示输入为 “我 是 一个 学生”，这可以是任何文本序列，例如一句话、一篇文章等。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>输入嵌入 (Input Embedding)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 将输入的词语转换为计算机可以处理的数值向量，即词向量。&lt;/li>
+&lt;li>&lt;strong>过程：&lt;/strong> 每个词语通过一个嵌入层（Embedding Layer）映射到一个高维向量空间，例如，“我” 可能被表示为 [0.1, 0.2, -0.3, 0.5 &amp;hellip;]。&lt;/li>
+&lt;li>&lt;strong>图中， “Input Embedding” 模块负责完成这个转换。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>位置编码 (Positional Encoding)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 由于 Transformer 模型没有 RNN 的顺序处理机制，需要额外的位置编码来表示词语在句子中的位置信息。&lt;/li>
+&lt;li>&lt;strong>过程：&lt;/strong> 位置编码通过一个特定的函数生成，并与词向量相加，从而将位置信息融入到词向量中。&lt;/li>
+&lt;li>&lt;strong>图中， “Positional Encoding” 模块负责生成位置编码，并与词向量相加。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>编码器 (Encoder)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 提取输入序列的语义信息。&lt;/li>
+&lt;li>&lt;strong>结构：&lt;/strong> 由 Nx 个相同的编码器层堆叠而成（图中显示 Nx）。每一层编码器包含：&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>多头注意力层 (Multi-Head Attention)：&lt;/strong> 这是 Transformer 模型的核心，它使用自注意力机制来计算输入序列中不同位置之间的关系。&lt;/li>
+&lt;li>&lt;strong>前馈神经网络 (Feed Forward)：&lt;/strong> 对每个位置的输出进行非线性变换。&lt;/li>
+&lt;li>&lt;strong>加和 &amp;amp; 归一化 (Add &amp;amp; Norm)：&lt;/strong> 使用残差连接和层归一化来稳定训练过程，加速收敛。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>图中，橙色框代表编码器，它接收经过位置编码的输入，并通过多层注意力机制和前馈网络提取特征。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>编码器的输出是包含了输入序列语义信息的向量表示。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>解码器 (Decoder)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 根据编码器的输出，生成目标序列。&lt;/li>
+&lt;li>&lt;strong>结构：&lt;/strong> 由 Nx 个相同的解码器层堆叠而成（图中显示 Nx）。每一层解码器包含：&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>掩码多头注意力层 (Masked Multi-Head Attention)：&lt;/strong> 与编码器的多头注意力层类似，但只关注解码器当前位置之前的信息，避免信息泄露。&lt;/li>
+&lt;li>&lt;strong>多头注意力层 (Multi-Head Attention)：&lt;/strong> 计算解码器当前位置与编码器输出之间的注意力权重，用于将编码器的信息融入到解码器中。&lt;/li>
+&lt;li>&lt;strong>前馈神经网络 (Feed Forward)：&lt;/strong> 与编码器中的前馈网络类似。&lt;/li>
+&lt;li>&lt;strong>加和 &amp;amp; 归一化 (Add &amp;amp; Norm)：&lt;/strong> 与编码器中的残差连接和层归一化类似。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>图中，粉色框代表解码器，它接收编码器的输出，并通过多层注意力机制和前馈网络生成目标序列。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>解码器是自回归的，它逐词生成目标序列。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>输出嵌入 (Output Embedding)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 将目标序列的词语转换为词向量。&lt;/li>
+&lt;li>&lt;strong>过程：&lt;/strong> 与输入嵌入类似，每个目标词语通过一个嵌入层映射到一个高维向量空间。&lt;/li>
+&lt;li>&lt;strong>图中，“Output Embedding” 模块负责目标词语的向量化。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>在训练过程中，解码器的输入是目标序列，但向右移动一位，第一个输入是起始符&lt;/strong> &lt;code>**&amp;lt;start&amp;gt;**&lt;/code>&lt;strong>，最后一个输入是结束符&lt;/strong> &lt;code>**&amp;lt;end&amp;gt;**&lt;/code>&lt;strong>。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>线性层 (Linear)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 将解码器的输出转换为与词汇表大小相同的向量，用于计算每个词语的概率。&lt;/li>
+&lt;li>&lt;strong>过程：&lt;/strong> 通过一个线性变换，将解码器的输出映射到一个词汇表大小的空间。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Softmax：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 将线性层的输出转换为概率分布，用于预测下一个词语。&lt;/li>
+&lt;li>&lt;strong>过程：&lt;/strong> Softmax 函数将线性层的输出转换为一个概率分布，每个位置的值表示该位置是词汇表中某个词语的概率。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>输出概率 (Output Probabilities)：&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;ul>
+&lt;li>&lt;strong>目的：&lt;/strong> 表示模型预测的下一个词语的概率分布。&lt;/li>
+&lt;li>&lt;strong>图中，输出显示了生成目标序列 “i am a student” 的过程，每个词语都对应一个概率分布。&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>例如，第一个输出 “i” 的概率最高，第二个输出 “am” 的概率最高，以此类推。&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;p>&lt;img src="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-7.png"
+width="940"
+height="207"
+srcset="https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-7_hu_552aaed610e647f0.png 480w, https://blog.8688886.xyz/p/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E4%BB%80%E4%B9%88%E6%98%AF%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/image-7_hu_6df0452228c2173a.png 1024w"
+loading="lazy"
+alt="HF"
+class="gallery-image"
+data-flex-grow="454"
+data-flex-basis="1089px"
+>&lt;/p></description></item></channel></rss>
