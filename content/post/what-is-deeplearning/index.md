@@ -2,7 +2,7 @@
 title: "人工智能：什么是深度学习"
 description: 
 date: 2025-01-22T16:06:24Z
-image: image-1.png
+image: image-3.png
 math: 
 hidden: false
 tags: 
@@ -15,7 +15,7 @@ categories:
     - 人工智能
 ---
 ### 什么是深度学习
-![深度学习关系图](image.png)
+![深度学习对比](image-3.png)
 
 机器学习是实现人工智能的一种途径。
 深度学习是机器学习的一个子集，也就是一个具体的方法。
@@ -70,7 +70,7 @@ categories:
 
 ### 深度学习与机器学习的区别
 
-![实例对比](image-1.png)
+![深度学习与机器学习的区别](image.png)
 
 机器学习需要依赖人工提取特征，而深度学习不需要进行人工特征提取，只需要把神经网络搭建完成。
 
@@ -79,6 +79,6 @@ categories:
 
 ### 发展历程
 
-![发展历程](image-2.png)
+![发展历程](image-4.png)
 
 重点是Tranformer和chatGPT的出现。
